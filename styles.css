@@ -1,0 +1,65 @@
+/*universal style */
+
+.sub-head {
+    line-height: 100px;
+}
+body {
+    background-color: rgb(212, 201, 201);
+    margin: 0;
+    text-align: center;
+}
+
+/* the header*/
+
+h1 {
+    margin: 0;
+    line-height: 100px;
+    background-color: steelblue;
+    color: khaki;
+}
+h2 {
+    margin: 10px;
+}
+
+/*app container*/ 
+
+.container {
+    display: flex;
+    border: 2px solid snow;
+}
+
+.week {
+    display: inline-flex;
+    flex-grow: 3;
+    flex-direction: column;
+}
+.square {
+    padding: 10px;
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+.task.square {
+    background-color: khaki;
+    border: 1px solid white;
+}
+.day.square{
+    background-color: rgb(180, 145, 70);
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+}
+
